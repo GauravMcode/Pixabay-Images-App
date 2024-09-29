@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="https://gauravmcode.github.io/Pixabay-Images-App/">
+  <base href="/Pixabay-Images-App/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -29,7 +29,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>Images Viewer</title>
+  <title>Pixabay Images Viewer</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body style="background-color: #6C4E31">
@@ -56,5 +56,9 @@
     <h2 style="color: #FFEAC5; font-size: 80px;">Pixabay Images App</h2>
   </div> -->
   <script src="flutter_bootstrap.js" async></script>
+  <script>
+    window.location.href.indexOf('#') === -1 && history.replaceState(null, '', '#' + window.location.href.substring(window.location.origin.length));
+  </script>
+  
 </body>
 </html>
