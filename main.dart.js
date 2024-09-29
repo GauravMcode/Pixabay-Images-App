@@ -48178,7 +48178,7 @@ return s*(B.f.f_(a-1,this.a)+1)-(s-this.d)}}
 A.a4i.prototype={}
 A.a4j.prototype={
 Bg(a){var s=a.w,r=Math.max(1,B.c.hB(s/370)),q=Math.max(0,s-20*(r-1))/r
-return new A.a4m(r,300,q+20,280,q,A.qY(a.x))}}
+return new A.a4m(r,310,q+20,290,q,A.qY(a.x))}}
 A.pA.prototype={
 j(a){return"crossAxisOffset="+A.j(this.w)+"; "+this.PU(0)}}
 A.FV.prototype={
